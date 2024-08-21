@@ -1,0 +1,30 @@
+.outer {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  flex-wrap:wrap;
+}
+
+.bg-pink {
+  background: lightpink;
+  flex-basis: 150px;
+  flex-shrink: 1;
+}
+
+.bg-blue {
+  background: lightblue;
+  flex-basis: 150px;
+  flex-shrink: 3;
+}
+
+.bg-green {
+  background: lightgreen;
+  flex-basis: 150px;
+  flex-shrink: 3;
+}
+
+.square {
+  height: 100px;
+
+}

@@ -1,0 +1,71 @@
+/*
+pseudotřídy podle stavu
+________________________
+
+hover - element, když na něm právě je kurzor myši
+focus - element, když má focus
+
+
+*/
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 3px;
+  color: black;
+  background: white;
+  padding: 0.35em 0.7em;
+  cursor: pointer;
+  /* transition: background-color 1s 2s linear */
+  /* 1s - duration, 2s - delay */
+  transition-property: background-color;
+  transition-delay: 2s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+button:hover {
+  background: lightpink;
+}
+
+.btn-small {
+  font-size: 0.8rem;
+}
+
+.btn-medium {
+  font-size: 1.2rem;
+}
+
+.btn-large {
+  font-size: 1.8rem;
+}
+
+.form-control {
+  margin: 1rem auto;
+  width: 300px;
+}
+label, input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+input {
+  font-size: 1.4rem;
+  padding: .35em .7em;
+  border-radius: 3px;
+  border: 1px solid #cdcdcd;
+}
+
+input, input:focus {
+  border-bottom-color: lightblue;
+  outline: none;
+}

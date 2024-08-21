@@ -1,0 +1,70 @@
+/*
+  1) absolutní
+    - px (pixel)
+
+  2) relativní
+    - % (vztahuje se k rozměru rodičovského elementu)
+        width: 50%
+    - vh (viewport height ... 100vh znamená celý viewport na výšku)
+    - vw (viewport width)
+    - rem (základní velikost písma v prohlížeči)
+    - em (vztahuje se k velikosti písma pro daný element
+    - auto
+*/
+
+
+button {
+  border: 2px solid black;
+  border-radius: 3px;
+  color: black;
+  background: white;
+  padding: 0.35em 0.7em;
+}
+
+.btn-small {
+  font-size: 0.8rem;
+}
+
+.btn-medium {
+  font-size: 1.2rem;
+}
+
+.btn-large {
+  font-size: 1.8rem;
+}
+
+
+/*
+
+colors
+
+hexadecimální kód - #RRGGBB
+  #FFFFFF - white
+  #000000 - black
+  #FF0000 - red
+  #00FF00 - green
+  #0000FF - blue
+  #444444 - taková tmavě šedá
+  #9A9A9A - taková světlejší šedá
+  #FEFEFE - nejsvětlejší šedá
+  #EFEFEF - skoro nejsvětlejší šedá
+
+rgb formát
+
+rgb(red, green, blue) ... čísla od 0 do 255
+rgb(0, 0, 0) - černá
+rgb(255, 255, 255) - bílá
+
+rgba formát
+
+rgba(red, green, blue, opacity) opacity 0-1
+
+
+*/
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, .25);
+  margin: auto; /* funguje pouze jako horizontální centrování */
+}

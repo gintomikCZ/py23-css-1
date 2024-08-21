@@ -1,0 +1,63 @@
+body { font-family: sans-serif; }
+
+ul {
+  list-style-type: none;
+  border: 1px solid #cdcdcd;
+  padding: 0;
+  width: 250px;
+  margin: 2rem auto;
+}
+
+li {
+  padding: .35em .7em;
+  /* border-bottom: 1px solid #cdcdcd; */
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+/* li:last-child {
+  border-bottom: none;
+} */
+
+/*
+
+li:not(.my-class) - všechny li, které nemají třídu my-class
+
+.my-class:not(li) - všechny elementy, které mají třídu my-class a nejsou to li
+
+*/
+
+/* div:first-of-type, li:first-of-type {
+  background: lightpink;
+}
+li:last-of-type {
+  background: lightblue;
+}
+
+li:nth-child(3) {
+  background: lightgreen;
+} */
+
+/* li:nth-child(3n + 1) {
+  background: #efefef;
+} */
+
+/* pseudotřídy podle pořadí
+
+:first-child - element, který je prvním potomkem svého rodiče
+:last-child - element, který je posledním potomkem rodiče
+
+:first-of-type - element, který je prvním potomkem svého typu svého rodiče
+:last-of-type - element, který je posledním potomkem svého typu svého rodiče
+
+:nth-child(4)
+:nth-of-type(3)
+
+:nth-child(2n) = :nth-child(even)
+:nth-of-type(3n)
+
+:nth-child(2n+1) = :nth-child(odd)
+
+*/

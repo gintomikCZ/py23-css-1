@@ -1,0 +1,48 @@
+* {
+  color: yellow;
+}
+
+p {
+  color: red;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-blue {
+  color: blue;
+}
+
+#myPar {
+  color: green;
+}
+
+button {
+  color: black;
+  font-size: 20px;
+}
+
+.btn-small {
+  font-size: 12px;
+}
+.btn-large {
+  font-size: 32px;
+}
+
+
+/* specificita - pořadí
+
+* - všechny elementy
+
+tagName - platí pro elementy daného tagu
+[attribute] - platí pro elementy, které mají daný atribut
+[attribute=value] - platí pro elementy,které mají daný atribut s danou hodnotou
+
+.class-name - platí pro elementy,které mají danou třídu
+
+#id - platí pro element s daným id
+
+inline styles
+
+*/

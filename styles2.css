@@ -1,0 +1,56 @@
+/* * {
+  font-weight: bold
+} */
+
+body {
+  font-family: Helvetica, Arial, sans-serif
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+p {
+  font-style: italic;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-green {
+  color: green;
+}
+
+[type=number] {
+  background: lightblue;
+}
+[type=text] {
+  background: lightpink;
+}
+
+#btn {
+  font-size: 40px;
+}
+
+/*
+typography:
+  font-size
+  font-style (normal, italic)
+  font-weight (light, bold, normal .... 100, 200, 300 ... 900)
+  color
+  font-family: fontová rodina
+
+inheritance
+*/
+
+/*
+* - všechny elementy
+tagName - platí pro elementy daného tagu
+.class-name - platí pro elementy, které mají danou třídu
+[attribute] - platí pro elementy, které mají daný atribut
+[attribute=value] - platí pro elementy,které mají daný atribut s danou hodnotou
+#id - platí pro element s daným id
+*/
+
