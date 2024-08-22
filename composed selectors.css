@@ -1,0 +1,24 @@
+
+
+/*
+
+selector1, selector2 {}
+  - platí pro selector1 a taky pro selector2
+
+sel1 sel2 {}
+  - platí pro sel2, který je potomkem sel1 (nemusí být přímý)
+  div button {} - pro buttony, které jsou uvnitř nějakého divu
+
+sel1 > sel2 {}
+  - platí pro sel2, který je přímým potomkem sel1
+
+sel1sel2 {}
+  - platí pro elementy, které vyhovují oběma selektorům
+  button.btn-small - platí pro buttony, které mají třídu btn-small
+
+
+div > button.btn
+  - platí pro buttony, které mají třídu .btn a zároveň jsou přímým potomkem divu
+
+
+*/
